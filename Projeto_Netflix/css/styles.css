@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Karantina';
+}
+
+header{
+    background-color: black;
+
+}
+.centro{
+    width: 1440px;
+    margin: 0 auto;
+}
+.menu-esquerda ul{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+}
+.menu-esquerda li{
+    display: inline-block;
+    margin:0 20px;
+}
+
+.menu-esquerda a{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.menu-direita ul{
+    display: inline-block;
+    position: relative;
+    top: -70px;
+    float: right;
+}
+.menu-direita li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-direita a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.notificacao{
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    top: -20px;
+    border-radius: 5rem;
+}
+
+.notificacao span{
+    color: #fff;
+    font-size: 25px;
+    margin: 12px;
+}
