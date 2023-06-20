@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+body{
+    background: black;
+}
+
+.perfis{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 100px 200px;
+    display: inline-block;
+    margin-right: -90px;
+    
+    
+}
+
+.perfis img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.texto{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text{
+    color: #7F7878;
+    text-align: center;
+    
+}
+
+.button{
+    color: rgb(101, 100, 100);
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    width: 220px;
+    height: 50px;
+    margin-left: 670px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.button h2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 3px;
+}
+    

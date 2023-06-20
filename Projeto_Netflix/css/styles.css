@@ -3,13 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Karantina';
+    font-family: 'Poppins';
+    
 }
 
 header{
     background-color: black;
+    /* position: absolute; */
+    z-index: 4;
+    width: 100%;
 
 }
+
+body{
+    background-color: black;
+}
+
+
 .centro{
     width: 1440px;
     margin: 0 auto;
@@ -61,6 +71,62 @@ header{
 
 .notificacao span{
     color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+
+.sobreposicao{
+    z-index: 3;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 860px;
+
+
+
+}
+
+.text-destaque{
+    position: relative;
+    z-index: 3;
+    top: 100px;
+    margin-left: 4%;
+    width: 1000px;
+    
+
+}
+
+.text-destaque h2{
+    color: white;
+    font-size: 50px;
+}
+
+.text-destaque p{
+    color: white;
     font-size: 25px;
-    margin: 12px;
+}
+
+.text-destaque a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 8px 50px;
+    top: 20px;
+    border-radius: 2px;
+   
+}
+
+.img-1{
+    margin-top: 465px;
+    width: 300px;
+    height: 200px;
+    padding-right: 30px;
 }
